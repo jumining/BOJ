@@ -1,3 +1,5 @@
+//백준 4673
+//셀프넘버
 #include <iostream>
 using namespace std;
 
