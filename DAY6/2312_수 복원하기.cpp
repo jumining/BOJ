@@ -1,3 +1,5 @@
+// 소인수 분해 알고리즘
+
 #include <iostream>
 using namespace std;
 
