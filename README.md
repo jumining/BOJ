@@ -7,7 +7,7 @@
 - 📌 일주일에 25문제 이상 풀기
 
 ```
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
