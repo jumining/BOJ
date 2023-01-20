@@ -1,15 +1,27 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    string s;
+string s;
+int arr[26] {0};
+
+void input() {
     cin >> s;
-    
-    int freq[26] = {};
-    for(auto i : s) {
-        freq[i - 'a']++;
+}
+
+void solution() {
+    for(auto idx : s) {
+        arr[idx-'a']++;
     }
-    for(int j = 0; j<26; j++)
-        cout << freq[j] << ' ';
-    
+}
+
+void output() {
+    for(auto val : arr) {
+        cout << val << " ";
+    }
+}
+
+int main() {
+    input();
+    solution();
+    output();
 }
